@@ -1,27 +1,32 @@
-# AngularNgrx
+# POC angular com NGRX
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
 
-## Development server
+Este projeto foi criado com [Angular CLI](https://github.com/angular/angular-cli) 14.1.0 e ngrx 14.3.2
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Sobre o projeto
 
-## Code scaffolding
+Este projeto consiste em uma POC do uso de arquitetura Flux, mais conhecida como redux para representar um CRUD com gerenciamento de estados usando a biblioteca ngrx.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Tecnologias utilizadas
 
-## Build
+- Angular
+- Ngrx Store
+- Ngrx Entity
+- Faker
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+# Iniciando o projeto
 
-## Running unit tests
+Para iniciar a aplicação execute o seguinte comando no terminal dentro da pasta crud-angular
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```shell script
+npm run start
+```
 
-## Running end-to-end tests
+# Autor
+<b>Thallyta Macedo Carvalho de Castro</b>
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Linkedin: https://www.linkedin.com/in/thallyta-castro/
 
-## Further help
+Medium: https://medium.com/@thallyta-castro-cv
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+email: contato@thallytacastro.com.br
